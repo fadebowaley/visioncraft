@@ -29804,3 +29804,22 @@ small {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.modal:not(.in).modal {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  
+  .modal.show.modal {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+    transition: transform 0.5s ease-out;
+  }
+  
