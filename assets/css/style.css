@@ -892,7 +892,8 @@ small {
 }
 
 .property-search {
-    box-shadow: 0 6px 30px hsl(var(--black)/.08)
+    box-shadow: 0 6px 30px hsl(var(--black)/.08);
+    border: 2px solid blue;
 }
 
 .property-search__select {
@@ -1513,7 +1514,7 @@ small {
 }
 
 .listing-card:hover .btn-outline-secondary {
-    background: hsl(var(--secondary-300));
+    background: hsl(var(--secondary-300));             
     color: hsl(var(--neutral-900))
 }
 
@@ -29823,3 +29824,13 @@ small {
     transition: transform 0.5s ease-out;
   }
   
+.cover{
+    width: ;
+    margin-top: 40px;
+    display: flex;
+}
+.card{
+    margin: 10px;
+    width: ;
+    height: ;
+}

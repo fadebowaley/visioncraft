@@ -128,7 +128,7 @@
                         </li> -->
                         <span class="material-symbols-outlined">
                           language
-                          </span>
+                        </span>
                       </ul>
 
                     </a>
@@ -285,11 +285,11 @@
             </div>
             <ul class="list list-lg-row menu-nav order-lg-1">
               <li class="menu-list current-page">
-                <a href="#" class="link menu-link "><span class="material-symbols-rounded mat-icon" > hotel </span> Home
+                <a href="#" class="link menu-link "><span class="material-symbols-rounded mat-icon"> hotel </span> Home
 
                 </a>
-                  <ul class="list menu-sub">
-                 
+                <ul class="list menu-sub">
+
                   <!--  <li class="menu-sub-list">
                     <a href="index.html" class="link menu-sub-link"> Real Estate </a>
                   </li>
@@ -309,8 +309,8 @@
                     <a href="home-6.html" class="link menu-sub-link"> Flight Booking </a>
                   </li>
                 </ul>
-              
-             <!-- <li class="menu-list">
+
+                <!-- <li class="menu-list">
                 <a href="#" class="link menu-link has-sub"> Listings </a>
                 <ul class="list menu-sub">
                   <li class="menu-sub-list">
@@ -361,27 +361,32 @@
                 </ul>
               </li>-->
               <li class="menu-list">
-                <a href="cab-listing-details.html" class="link menu-link"><span class="material-symbols-rounded mat-icon"  style=" margin-right: 8px;">directions_car</span> Car rentals</a>
-      
+                <a href="cab-listing-details.html" class="link menu-link"><span
+                    class="material-symbols-rounded mat-icon" style=" margin-right: 8px;">directions_car</span> Car
+                  rentals</a>
+
               </li>
 
               <li class="menu-list">
-                <a href="#" class="link menu-link"> <span class="material-symbols-rounded mat-icon"  style=" margin-right: 8px;"> attractions </span> Attractions</a>
-      
+                <a href="#" class="link menu-link"> <span class="material-symbols-rounded mat-icon"
+                    style=" margin-right: 8px;"> attractions </span> Attractions</a>
+
               </li>
 
 
               <li class="menu-list">
-                <a href="#" class="link menu-link"> <span class="material-symbols-rounded mat-icon" style=" margin-right: 8px;" > local_taxi</span> Airport Taxi</a>
-      
+                <a href="#" class="link menu-link"> <span class="material-symbols-rounded mat-icon"
+                    style=" margin-right: 8px;"> local_taxi</span> Airport Taxi</a>
+
               </li>
 
               <li class="menu-list">
-                <a href="#" class="link menu-link"  > <span class="material-symbols-rounded mat-icon" style=" margin-right: 8px;"> Restaurant</span> Food</a>
-      
+                <a href="#" class="link menu-link"> <span class="material-symbols-rounded mat-icon"
+                    style=" margin-right: 8px;"> Restaurant</span> Food</a>
+
               </li>
 
-              
+
               <li class="menu-list">
                 <a href="#" class="link menu-link has-sub"> Dashboard </a>
                 <ul class="list menu-sub">
@@ -392,7 +397,7 @@
               </li>
 
 
-             
+
               <li class="menu-list">
                 <a href="#" class="link menu-link has-sub clear-content">
                   <span class="material-symbols-outlined mat-icon"> more_horiz </span>
@@ -426,7 +431,7 @@
 
               <li class="menu-list">
                 <a href="#" class="link menu-link has-sub">more
-                 
+
                 </a>
                 <ul class="list menu-sub">
                   <li class="menu-sub-list">
@@ -531,6 +536,18 @@
                     <option value="3">Atlanta</option>
                   </select>
                 </div>
+
+
+                <div class="input-container">
+                  <label for="calendar">Check in:</label>
+                  <input type="date" id="calendar" name="calendar">
+                </div>
+                <div class="input-container">
+                  <label for="calendar">Check out:</label>
+                  <input type="date" id="calendar" name="calendar">
+                </div>
+
+
                 <div
                   class="property-search__select property-search__col rounded-pill d-flex align-items-center gap-2 px-6">
                   <span class="material-symbols-rounded mat-icon"> grid_view </span>
@@ -541,6 +558,39 @@
                     <option value="3">Commercial</option>
                   </select>
                 </div>
+                <div
+                  class="property-search__select property-search__col rounded-pill d-flex align-items-center gap-2 px-6">
+                  <span class="material-symbols-outlined">
+                    room_service
+                  </span>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected="">No of Rooms</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div
+                  class="property-search__select property-search__col rounded-pill d-flex align-items-center gap-2 px-6">
+                  <span class="material-symbols-outlined">groups</span>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected="">No of Adult</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+                <div
+                  class="property-search__select property-search__col rounded-pill d-flex align-items-center gap-2 px-6">
+                  <span class="material-symbols-outlined">groups</span>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected="">No of Child</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+
                 <div
                   class="property-search__price property-search__col rounded-pill d-flex align-items-center gap-2 px-6 py-3">
                   <div class="d-flex gap-2 align-items-center">
@@ -557,9 +607,10 @@
                     </span>
                   </div>
                 </div>
-                <button class="btn rounded-pill property-search__btn property-search__col">
-                  <span class="material-symbols-rounded mat-icon"> search </span>
-                </button>
+              <button class="btn rounded-pill property-search__btn property-search__col custom-button">
+                  <span class="material-symbols-rounded mat-icon">search</span>
+              </button>
+              
               </div>
             </div>
           </form>
