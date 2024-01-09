@@ -29834,3 +29834,9 @@ small {
     width: ;
     height: ;
 }
+
+.dark-border-slash {
+    border: 2px solid #000; /* Dark border color */
+    height: 1px; /* Adjust the height of the border line */
+    width: 100%; /* Make it span the full width of its container */
+  }
